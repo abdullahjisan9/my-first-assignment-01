@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 /* font-family: "Fira Sans", serif; */
 
+#full-color{
+    background-color: #F1F1F3;
+}
+
 /* shared style  */
 .btn-primary{
     background-color: #006A50;
@@ -94,5 +98,46 @@ button{
     color: #FFFFFF;
     padding: 11px 20px 11px 20px;
     border: none;
+}
+
+/* 2ndcard styles */
+.card2nd-container{
+    display: block;
+    padding: 48px;
+
+}
+
+.card2nd-title{
+    color: #0E0E0E;
+    font-weight: bold;
+    font-size: 40px;
+}
+.card2nd-description{
+    color: #0E0E0E;
+    font-weight: 400;
+    font-size: 16px;
+}
+.card2nd{
+    margin-right: 160px;
+    margin-left: 160px;
     
+}
+.pictur{
+    border-radius: 24px;
+}
+.news-about{
+    /* display: flex; */
+    border-radius: 24px;
+    background-color: #FFFFFF;
+}
+.full-content{
+    padding: 48px;
+    display: flex;
+}
+.btn-read-more{
+    border-radius: 8px;
+    background-color: #006A50;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 13px 26px 13px 26px;
 }
