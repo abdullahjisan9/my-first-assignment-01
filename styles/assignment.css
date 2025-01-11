@@ -18,6 +18,7 @@
     margin: 20px 160px 80px 160px;
     background-color: #C6E4D6;
     border-radius: 24px;
+    
 }
 .banner-title{
     color: #0E0E0E;
@@ -34,7 +35,7 @@
     width: 474.03px;
 }
 
-  /* main styls */
+  /* header styls */
   .banner-content{
     padding: 117px 0px  117px 59.99px;
   } 
@@ -42,4 +43,56 @@
 
 img{
     padding: 80px 59.99px 80px 64px;
+}
+
+/* main styles */
+.card-information-title{
+    color: #0E0E0E;
+    font-size: 40px;
+    font-weight: bold;
+}
+.card-information-title-description{
+    font-size: 16px;
+    color: #0E0E0E;
+}
+/* card information styles */
+.card-info-container{
+    display: flex;
+    gap: 24px;
+}
+
+.card-info{
+    margin-right: 160px;
+    margin-left: 160px;
+}
+.card-01{
+    border-radius: 16px;
+    background-color: rgba(84, 144, 245, 0.2);
+    
+}
+.card-02{
+    border-radius: 16px;
+    background-color:#C6E4D6;
+}
+.card-03{
+    border-radius: 16px;
+    background-color: #F7EBCF;
+}
+
+.btn-01{
+    background-color: #5490F5 ;
+}
+.btn-02{
+    background-color: #006A50;
+}
+.btn-03{
+    background-color: #FFC239;
+}
+button{
+    border-radius: 8px;
+    font-size: 16px;
+    color: #FFFFFF;
+    padding: 11px 20px 11px 20px;
+    border: none;
+    
 }
